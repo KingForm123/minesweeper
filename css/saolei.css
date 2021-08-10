@@ -1,0 +1,91 @@
+
+.img0 {
+	background: url(../img/0.gif) !important;
+}
+
+.img1 {
+	background: url(../img/1.gif) !important;
+}
+
+.img2 {
+	background: url(../img/2.gif) !important;
+}
+
+.img3 {
+	background: url(../img/3.gif) !important;
+}
+
+.img4 {
+	background: url(../img/4.gif) !important;
+}
+
+.img5 {
+	background: url(../img/5.gif) !important;
+}
+
+.img6 {
+	background: url(../img/6.gif) !important;
+}
+
+.img7 {
+	background: url(../img/7.gif) !important;
+}
+
+.img8 {
+	background: url(../img/8.gif) !important;
+}
+
+.imgerror {
+	background: url(../img/error.gif) !important;
+}
+
+.imgflag {
+	background: url(../img/flag.gif) !important;
+}
+
+.imgask {
+	background: url(../img/ask.gif) !important;
+}
+
+.imgblank {
+	background: url(../img/blank.gif) !important;
+}
+
+.imgblood {
+	background: url(../img/blood.gif) !important;
+}
+
+#id-button-map {
+	position: relative;
+	left: 45%;
+}
+
+#id-div-mime {
+	position: absolute;
+	left: 40%;
+}
+
+#id-div-same {
+	position: absolute;
+	bottom: 20%;
+	left: 40%;
+}
+
+.cell {
+	float: left;
+	width: 25px;
+	height: 25px;
+	font-size: 0px;
+	background: url(../img/blank.gif);
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	/* clear: both; */
+}
+
+.opened {
+	/* font-size: 24px; */
+	background-color: #FFD700;
+}
