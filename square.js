@@ -1,23 +1,4 @@
 const log = console.log.bind(console)
-// const random = function() {
-// 	let a = Math.random()
-// 	let b = a * 10
-// 	let c = Math.floor(b)
-// 	if (c < 5) {
-// 		// log(c)
-// 		return 0
-// 	} else {
-// 		return 9
-// 	}
-// }
-// const row = function() {
-// 	let l = []
-// 	for (let i = 0; i < 9; i++) {
-// 		l.push(random())
-// 	}
-// 	// log(l)
-// 	return l
-// }
 const shuffle = function(arr) {
 	// let arr = square(arr)
 	let result = new Array(), randomIndex;
@@ -40,10 +21,8 @@ const square = function() {
 	for (let i = 0; i < 9; i++) {
 		let array = [0, 0, 0, 0, 0, 0, 0, 0, 9]
 		let arr = shuffle(array)
-		// log(arr, array)
 		l.push(arr)
 	}
-	// log(l)
 	return l
 }
 const plus = function(array, x, y) {
@@ -71,25 +50,12 @@ const markAround = function(array, x, y) {
 }
 const markedSquare = function() {
 	let array = square()
-	// log(array)
 	for (let i = 0; i < array.length; i++) {
 		let n = array[i]
-		// log(n)
 		for (let j = 0; j < n.length; j++) {
-			// let k = n[j]
-			// log(k)
 			markAround(array, i, j)
 		}
 	}
 	log(array)
 	return array
 }
-// const __main = function() {
-// 	// row()
-// 	// random()
-// 	// square()
-// 	square()
-// 	// shuffle()
-// 	markedSquare()
-// }
-// __main()

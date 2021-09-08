@@ -55,20 +55,12 @@
 	background: url(../img/blood.gif) !important;
 }
 
-#id-button-map {
-	position: relative;
-	left: 45%;
+.imgface_fail {
+	background: url(../img/face_fail.gif) !important;
 }
 
-#id-div-mime {
-	position: absolute;
-	left: 40%;
-}
-
-#id-div-same {
-	position: absolute;
-	bottom: 20%;
-	left: 40%;
+.imgmine {
+	background: url(../img/mine.gif) !important;
 }
 
 .cell {
@@ -77,6 +69,10 @@
 	height: 25px;
 	font-size: 0px;
 	background: url(../img/blank.gif);
+}
+
+.cell:hover {
+	background: #BFBFBF;
 }
 
 .clearfix::after {
@@ -88,4 +84,61 @@
 .opened {
 	/* font-size: 24px; */
 	background-color: #FFD700;
+}
+
+#scoreboard{
+	padding: 10px;
+	width: auto;
+	height: 26px;
+	position: relative;
+	background-color: #BFBFBF;
+	text-align: center;
+	border-top: 	3px solid #707070;
+	border-left: 	3px solid #707070;
+	border-right: 	3px solid white;
+	border-bottom: 	3px solid white;
+}
+
+#scoreboard .panel{
+	display: inline-block;
+	padding: 1px;
+	position: absolute;
+	background-color: black;
+	color: #DF0D14;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: DS-Digital, monospace;
+	border-top: 	1px solid #707070;
+	border-left: 	1px solid #707070;
+	border-right: 	1px solid #F0F0F0;
+	border-bottom: 	1px solid #F0F0F0;
+	width: 36px;
+	text-align: center;
+	cursor: default;
+}
+
+#score-bomb-count{
+	left: 10px;
+}
+
+#score-time-count{
+	right: 10px;
+	top: 10px;
+}
+
+.wrapper{
+	width: 225px;
+	height: 276px;
+	margin: 50px auto;
+	border: 8px solid #BFBFBF;
+}
+
+#id-button-map {
+	background: url(../img/face_normal.gif);
+	width: 25px;
+	height: 25px;
+	border-top: 	2px solid white;
+	border-left: 	2px solid white;
+	border-right: 	2px solid #707070;
+	border-bottom: 	2px solid #707070;
 }
